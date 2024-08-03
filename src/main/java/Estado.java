@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Estado {
+public interface Estado {
+	void inserirMoeda();
+	void ejetarMoeda();
+	void selecionarProduto();
+	void dispensar();
 }
